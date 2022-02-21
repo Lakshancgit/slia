@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Slia
+Bundle-SymbolicName: org.topra.slia;singleton:=true
+Bundle-Version: 1.0.0.202111242015
+Automatic-Module-Name: org.topra.slia
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.adempiere.base;bundle-version="8.2.0",org.adempier
+ e.plugin.utils;bundle-version="8.2.0",net.sf.jasperreports.engine;bun
+ dle-version="6.3.1",org.adempiere.report.jasper;bundle-version="8.2.0
+ "
+Bundle-Activator: org.adempiere.plugin.utils.AdempiereActivator
+Export-Package: org.slia.factories,org.slia.model,org.slia.process
+Service-Component: component.xml
+
